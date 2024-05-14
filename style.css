@@ -1,0 +1,550 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+#navbar{
+    font-style: italic;
+    justify-content: space-between;
+    display:flex;
+    padding-top:13px;
+    background-color: black;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 20px;
+   
+    
+}
+
+
+#navbar ul li{
+    font-size: 25px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 1px 20px;
+    color: rgb(233, 237, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+#navbar ul li a:hover{
+    text-decoration:underline rgb(86, 106, 218);
+    color: rgb(86, 106, 218); ;
+    transition:0.5s;
+}
+
+
+.maindiv{
+    float: left;
+    position: absolute;
+    width: 50%;
+    margin-top:90px;
+    margin-left:70px;
+
+}
+
+.mainsec{
+    display: flex;
+    background-color: black;
+    
+}
+.bg{
+   height:670px;
+   width:100%;
+   background-image: url(BG1.jpg);
+   background-repeat: no-repeat;
+   margin-left:570px;
+   background-size: cover;
+   position:sticky;
+   
+}
+.hello{
+  font-size:25px;
+  margin-left:5px;
+  margin-top: 20px;
+  color : #2b6fed;
+}
+#typing-animation{
+    color: #2b6fed;
+    font-size: 60px;
+    
+}
+
+/*----------about------*/
+
+P{
+    color:white;
+    font-size:90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.span{
+    color: rgb(86, 106, 218);
+    
+}
+
+ 
+.section2{
+   background-image: url(bgedu123.jpg) ;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+    height:100vh;
+    overflow: hidden;
+}
+.dotted{
+    color: aliceblue;
+    text-decoration:underline dashed blue;
+    font-size:27px;
+}
+.para{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:30px ;
+    color: #c6c3c3;
+}
+.tech{
+  font-size:22px;
+  color: #fff;
+}
+.abtdiv{
+    padding: 10px 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.tab {
+    display: none;
+    margin-left:150px;
+    font-size: 30px;
+    color: #6e97e4;
+    margin-right:100px;
+  }
+  .tab li{
+    margin-top: 10px;
+  }
+  .animation{
+    margin: 20px 10px;
+  }
+
+ 
+  
+ 
+
+  /* Show the active tab */
+  .tab.active {
+    display: block;
+    color: #f4f7ff;
+  }
+
+  /* Styles for tab navigation */
+  .tab-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left:90px;
+    margin-top:27px;
+  }
+  .tab-nav li{
+    padding: 5px  35px;
+  }
+
+
+  .tab-nav-item {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size:43px;
+    color:#f9f9f9;
+    text-decoration: underline blue;
+    
+  }
+  .tab-nav-item:hover{
+    text-decoration: none;
+    color:#c6c3c3;
+    transition: 1s;
+  }
+
+.projectlinks a{
+    color:#fff;
+}
+
+.skillphoto {
+    overflow: hidden; /* added overflow hidden */
+  }
+  
+  .skillphoto img {
+    height: 410px;
+    width: auto;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    display: block;
+    margin-top:55px;
+    transition: transform 0.5s; /* added transition effect */
+  }
+  
+  .skillphoto img:hover {
+    transform: scale(1.1); /* added hover effect to zoom in */
+  }
+  
+  
+.flexbox{
+    display: flex;
+    margin-left: 30px;
+}
+
+
+/*..............Education........*/
+
+
+.edusec{
+    height:100vh;
+    width: 100%;
+    background-image: url(bgedu1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.edu{
+    font-size:60px;
+    margin-left:620px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.divedu{
+    height:1px;
+    width: 900px;
+    margin-left: 290px;
+    border:1px solid rgb(13, 42, 174);
+    background-color: blue;
+}
+.edu1{
+    height:200px;
+    width:500px;
+    background-color: rgb(192, 199, 201);
+
+}
+.edu1:hover{
+    transform:scale(1.01);
+    transition:0.11s;
+}
+.edu1:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(81, 82, 82);;
+}
+.year1{
+    color: blue;
+    margin-left:190px;
+    font-family: ;
+    margin-top:16px;
+}
+.degree{
+    font-size:25px;
+    margin-left:60px;
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+.college{
+    font-size:10px ;
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size:15px;
+}
+.grade{
+    color: #000;
+    font-size: 12px;
+    margin-left:60px;
+    margin-top:9px ;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-left:180px;
+    margin-right: 180px;
+    margin-top:80px;
+}
+
+
+/*............project.........*/
+
+
+.projectsec{
+    height:100vh;
+    background-image: url(bgedu1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.projectsec h1{
+    color: #ffffff;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.divline2{
+    height: 4px;
+    width: 700px;
+    background-color:#19408a;
+    margin-left: 400px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .image-wrapper {
+    text-align: center;
+  }
+  
+  .image-wrapper img {
+    width: 70%; 
+    margin: 10px; 
+  }
+  .image-wrapper img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+  
+  .image-wrapper h1 {
+    font-size:30px; 
+    margin-top: 10px;
+  }
+  .prjctpara{
+    font-size:20px;
+    color:rgb(183, 183, 188);
+    margin: 10px 40px;
+    padding: 2px 25px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+ .txtinput{
+  height: 100vh;
+  width: 100%;
+  background-image: url(bgedu1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ 
+ }
+ .txtinput h1{
+  font-size: 50px;
+  color: #fff;
+  margin-left: 565px;
+  padding-top: 60px;
+ }
+ #contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+  margin-top: 50px;
+}
+#contact-box input, 
+#contact-box textarea{
+  width: 100%;
+  padding: 0.3rem;
+  border-radius: 12px;
+  font-size: 18px;
+  background-color:rgb(rgb(215, 211, 211), green, blue)
+} 
+
+#contact-box form{
+  width: 40%;
+  
+}
+
+#contact-box label{
+ font-size: 1rem;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: #c6c3c3;
+}
+.button{
+     color:azure;
+      margin-left:230px;
+      margin-top: 20px;
+      font-size:15px;
+      border-radius: 20px;
+      padding:9px 15px;
+      background:rgb(7, 9, 156);
+      border: 1px solid rgb(7, 9, 156);
+      
+      
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover{
+  border: 1px solid rgb(255, 255, 255);
+  background-color:rgb(2, 5, 9);
+  transition: 1s; 
+  cursor: pointer;   
+      
+      
+  }
+
+  
+  
+
+
+
+
+
+ .contactinfo1{
+    height: 100vh;
+    background-image: url(bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ 
+  
+  .line3{
+    height:3px;
+    width:800px;
+    background-color: #0241ff;
+    margin-left: 370px;
+  }
+
+.cnpara{
+  font-size: 20px;
+  color: #c6c3c3;
+  margin-left: 590px;
+  margin-top: 40px;
+}
+  
+  .contact-title{
+    margin-left: 620px;
+    font-size: 60px;
+    color: #fff;
+    padding-top: 70px ;
+  }
+  .contactlist{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top:10px;
+    
+  }
+  .contactinfo1 i{
+    font-size: 90px;
+    color: #0645ff;
+    margin:120px;
+    margin-bottom: 0;
+  }
+  .contactinfo1 i:hover{
+    color: #19408a;
+  }
+  
+  .contactname{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 0 70px;
+    margin-left:240px;
+    
+  }
+  
+.contactname h1{
+    font-size:20px;
+    color: #fff;
+    margin-top: 8px;
+}
+.contactname p{
+    font-size:13px;
+    color: #fff;
+    margin-top:7px;
+}
+.cntctdiv{
+    margin-bottom:120px;
+    width:400px;
+    margin-top: 0;
+}
+  
+
+
+/*............footer.........*/
+
+
+footer{
+	position:relative;
+	bottom: 0;
+	background: black;
+	height: auto;
+	width: 100%;
+	padding: 40px 0 0 0;
+}
+
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer p{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/*social -media*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+/* copyright*/
+.footer-copyright{
+    background: #000;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 13px;
+}
+.footer-copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+   
+
+
